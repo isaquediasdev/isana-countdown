@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isana - Casamento</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#8C7356",
+              "primary-dark": "#5D4037",
+              "secondary": "#B08D55",
+              "accent": "#C4A484",
+              "background-light": "#FAF9F6",
+              "background-paper": "#FDFBF7",
+              "surface-dark": "#1C1917",
+              "text-dark": "#2D2420",
+              "text-light": "#EAE0D5",
+            },
+            fontFamily: {
+              "sans": ["Manrope", "sans-serif"],
+              "serif": ["Cormorant Garamond", "serif"],
+              "display": ["Cinzel", "serif"],
+              "script": ["Great Vibes", "cursive"],
+            },
+            backgroundImage: {
+              'paper-texture': "url('https://www.transparenttextures.com/patterns/cream-paper.png')",
+              'rustic-texture': "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA-We12jHu4KSXj0AuNZAWJq2HUPnGUpOQLugxiB8jBWNbVLaOebTSSPBokLISyd3DdIRMtyNsHgWEAucVAde2GqBBGaPYnID1KHh4VRivKIXXCtpOhYaswqJ5luWKSyK_tn6t37eiZkM7hBkI9uvFjCVIHN0nBWLU58sN6R3ee0SQE8lJrm2dIN06SMBifBa_DR2NmgEewmkMNvEjj1ZLv9RA2DmGZxoUlEQtfCOAL1JH32dAaD-k9wHHianCkdz_G8nmOhF2gWg')"
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+      .font-serif-text {
+        font-family: "Cormorant Garamond", serif;
+      }
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-light text-text-dark antialiased">
+    <div id="root"></div>
+  </body>
+</html>
