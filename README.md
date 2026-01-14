@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ana Clara & Isaque - Wedding Countdown
 
-# Run and deploy your AI Studio app
+Countdown elegante para o casamento de Ana Clara & Isaque.
 
-This contains everything you need to run your app locally.
+**Data:** 15 de Outubro de 2026
+**Local:** Castelo de Itaipava
 
-View your app in AI Studio: https://ai.studio/apps/drive/1889jyGI_Z4OUBIlKINCRJUsEZezFUa9D
+## Stack
 
-## Run Locally
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS (CDN)
 
-**Prerequisites:**  Node.js
+## Executar localmente
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Build para produção
+
+```bash
+npm run build
+```
+
+O build será gerado na pasta `dist/`.
+
+## Deploy
+
+Compatível com:
+- Vercel
+- Lovable
+- Netlify
+- GitHub Pages
