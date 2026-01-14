@@ -1,36 +1,18 @@
-# Ana Clara & Isaque - Wedding Countdown
+# Ana Clara & Isaque
 
-Countdown elegante para o casamento de Ana Clara & Isaque.
+Contagem regressiva para o nosso casamento.
 
-**Data:** 15 de Outubro de 2026
-**Local:** Castelo de Itaipava
+**15 de Outubro de 2026 • Castelo de Itaipava**
 
-## Stack
-
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS (CDN)
-
-## Executar localmente
+## Executar
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build para produção
+## Build
 
 ```bash
 npm run build
 ```
-
-O build será gerado na pasta `dist/`.
-
-## Deploy
-
-Compatível com:
-- Vercel
-- Lovable
-- Netlify
-- GitHub Pages
